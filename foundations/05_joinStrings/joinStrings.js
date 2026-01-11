@@ -8,10 +8,14 @@
 */
 
 // Add your code right below, good luck!
+let firstName = "Nina";
+let lastName = "Nguyen";
+let thisYear = 2026;
+let birthYear = 2006;
+let greeting = `Hello! My name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`;
 
-
-
-
+let fullName = firstName + " " + lastName;
+let age = thisYear - birthYear;
 
 // Do not change this
 module.exports = {
